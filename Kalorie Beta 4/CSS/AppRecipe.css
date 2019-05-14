@@ -1,0 +1,282 @@
+@keyframes AnimationName { 
+    0%{background-position:0% 20%}
+    50%{background-position:100% 81%}
+    100%{background-position:0% 20%}
+}
+@media only screen and (max-device-width: 414px){
+#apprecipes{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-left: 100vw;
+    align-items: center;
+/*    justify-content: center;*/
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    background: linear-gradient(150deg, #29FFA2, #80BFC9, #29FFA2, #80BFC9);
+    animation: AnimationName 10s ease infinite;
+    background-size: 800% 800%;
+}
+#menurecipe{
+    width:100%;
+    height: 13vh;
+/*background-color: azure;*/
+    align-items: center;
+    display: flex;
+/*    margin-top: 10vh;*/
+}
+#backrecipe{
+    width: 30%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+/*background-color: #d49aff;*/
+/*margin-left: 30px;*/
+}
+#backrecipe p{
+    font-family: JBC;
+    font-size: 8vw;
+    color: white;
+}
+#backrecipe img{
+    width: 4vw;
+/*    height: 40px;*/
+    margin-right: 3vw;
+}
+#backtokalorierecipe{
+    width:15%;
+/*    height: 200px;*/
+/*background-color: bisque;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 55vw;
+}
+#backtokalorierecipe img{
+    width: 4vh;
+/*    height: 210px;*/
+}
+#foodname p{
+    font-family: JB;
+    font-size: 15vw;
+    color: white;
+    margin-bottom: 80px;
+    text-align: center;
+}
+#optionholderrecipe{
+    width: 100%;
+    height: 230vh;
+/*    background-color: wheat;*/
+/*    margin-top: 80px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#recipebox{
+    width: 100%;
+    height: auto;
+    background-color: white;
+/*    margin-top: 100px;*/
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+}
+#recipesection p{
+    font-family: SFSB;
+    font-size: 10vw;
+    color: #31b98b;
+    margin-left: 10vw;
+}
+#recipeimage1 {
+margin: 0px;    
+}
+    #recipeimage2 {
+margin: 0px;    
+}
+#recipeimage1 img{
+    width: 100%;
+}
+    #recipeimage2 img{
+    width: 100%;
+}
+#ingridiens{
+    margin: 5vw;
+}
+#ingridiens ul{
+    font-family: JBC;
+    font-size: 5vw;
+    color: black;
+
+}
+#ingridiens li{
+    line-height: 3vh;
+}
+    #instructions{
+    margin: 5vw;
+}
+#instructions ul{
+    font-family: JBC;
+    font-size: 5vw;
+    color: black;
+
+}
+#instructions li{
+    line-height: 3vh;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 414px){
+#apprecipes{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+    margin-left: 100vw;
+/*    justify-content: center;*/
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 200vh;
+    background: linear-gradient(150deg, #29FFA2, #80BFC9, #29FFA2, #80BFC9);
+    animation: AnimationName 10s ease infinite;
+    background-size: 800% 800%;
+}
+    #reciperabbitear{
+        width: 100vw;
+        height: 10vh;
+    }
+#menurecipe{
+    width:100%;
+    height: 13vh;
+/*background-color: azure;*/
+    align-items: center;
+    display: flex;
+/*    margin-top: 20px;*/
+}
+#backrecipe{
+    width: 20vw;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+/*background-color: #d49aff;*/
+margin-left: 3vw;
+}
+#backrecipe p{
+    font-family: JBC;
+    font-size: 3vw;
+    color: white;
+}
+#backrecipe img{
+    width: 1.5vw;
+/*    height: 40px;*/
+    margin-right: 1vw;
+}
+#backtokalorierecipe{
+    width:15%;
+/*    height: 200px;*/
+/*background-color: bisque;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 60vw;
+}
+#backtokalorierecipe img{
+    width: 4vh;
+/*    height: 210px;*/
+}
+#foodname p{
+    font-family: JB;
+    font-size: 5vw;
+    color: white;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+#optionholderrecipe{
+    width: 100%;
+    height: 230vh;
+/*    background-color: wheat;*/
+/*    margin-top: 80px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#recipebox{
+    width: 90%;
+    height: auto;
+    background-color: white;
+/*    margin-top: 100px;*/
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+border-bottom-right-radius: 30px;
+    display: flex;
+    flex-direction: row;
+}
+    #recipebox1, #recipebox2{
+        flex: 1;
+    }
+#recipesection p{
+    font-family: SFSB;
+    font-size: 3vw;
+    color: #31b98b;
+    margin-left: 5vw;
+}
+#recipeimage1 {
+margin: 70px;    
+}
+    #recipeimage2 {
+margin: 70px;    
+}
+#recipeimage1 img{
+    width: 50%;
+}
+    #recipeimage2 img{
+    width: 50%;
+}
+#ingridiens{
+    margin: 5vw;
+}
+#ingridiens ul{
+    font-family: JBC;
+    font-size: 2vw;
+    color: black;
+
+}
+#ingridiens li{
+    line-height: 4vh;
+}
+    #instruction{
+    margin: 5vw;
+}
+#instructions ul{
+    font-family: JBC;
+    font-size: 2vw;
+    color: black;
+
+}
+#instructions li{
+    line-height: 4vh;
+}
+}
+
+

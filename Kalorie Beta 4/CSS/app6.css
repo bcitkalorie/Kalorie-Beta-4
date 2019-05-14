@@ -1,0 +1,368 @@
+@keyframes AnimationName { 
+    0%{background-position:0% 20%}
+    50%{background-position:100% 81%}
+    100%{background-position:0% 20%}
+}
+@media only screen and (max-device-width: 414px){
+#app6{
+    width:100vw;
+    height:190vh;
+    position: absolute;
+/*    background-color: #d7dbfa;*/
+    margin-left:100vw;
+    top:0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+/*    display: none;*/
+}
+#rabbitear6{
+    width:100%;
+    height:5vh;
+}
+#menu6{
+    width:100%;
+    height: 13vw;
+/*    background-color: azure;*/
+    align-items: center;
+    display: flex;
+}
+#back6{
+    width: 30%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+/*    background-color: #d49aff;*/
+    margin-left: 3vw;
+}
+#back6 p{
+    font-family: JBC;
+    font-size: 8vw;
+    color: #40a3ff;
+}
+#back6 img{
+    width: 4vw;
+/*    height: 50px;*/
+    margin-right: 3vw;
+}
+#backtokalorie6{
+    width:15%;
+/*    height: 200px;*/
+/*    background-color: bisque;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 45vw;
+}
+#backtokalorie6 img{
+    width: 4vh;
+/*    height: 230px;*/
+}
+#questiontitle6{
+    width:100%;
+    height: 20vh;
+/*    background-color: rgba(255, 228, 196, 0.67);*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#questiontitle6 p{
+    font-family: JB;
+    font-size: 10vw;
+    text-align: center;
+/*    margin-top: 0px;*/
+}
+#caption6{
+    
+}
+#caption6 p{
+    font-family: JBC;
+    font-size: 5vw;
+    text-align: center;
+}
+#optionholder6{
+    width:100%;
+    height: 90vh;
+/*    background-color: antiquewhite;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+#optionbox16, #optionbox26, #optionbox36 {
+    width: 70vw;
+    height: 25vh;
+    background-color: white;
+    margin: 5vw;
+    border-radius:30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#description1,#description3,#description2{
+    font-family: JBC;
+    font-size: 8vw;
+    text-align: center;
+}
+#dss{
+    flex:3;
+}
+#dss p{
+    font-family: JBC;
+    font-size: 8vw;
+    text-align: right;
+}
+#arrowicon{
+    flex:2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#arrowicon img{
+    width: 17vw;
+}
+
+#targetholder6{
+    width: 100vw;
+    height: 50vh;
+/*    background-color: antiquewhite;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#optionbox46, #optionbox56{
+    width: 70vw;
+    height: 25vh;
+    background-color: white;
+    margin: 40px;
+    border-radius:90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    
+}
+
+#optionbox56 {
+    color:#8F00F3;
+    background: linear-gradient(127deg, rgb(251, 226, 255), #FDEAFF);
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+    border-style:solid;
+    border-color: #8F00F3;
+    border-width: medium;
+    border-style:solid;
+    
+}
+#optionbox46 {
+   color: #00B39C;
+    background: linear-gradient(127deg, rgb(205, 255, 238), #E5FFFB);
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+    border-color: #00B39C;
+    border-width: medium;
+    border-style:solid;
+    
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 414px){
+#app6{
+    width:100vw;
+    height:160vh;
+    position: absolute;
+/*    background-color: #d7dbfa;*/
+    margin-left:100vw;
+    top:0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+/*    display: none;*/
+}
+#rabbitear6{
+    width:100%;
+    height:5vh;
+}
+#menu6{
+    width:100%;
+    height: 13vw;
+/*    background-color: azure;*/
+    align-items: center;
+    display: flex;
+}
+#back6{
+    width: 20vw;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+/*    background-color: #d49aff;*/
+    margin-left: 3vw;
+}
+#back6 p{
+    font-family: JBC;
+    font-size: 3vw;
+    color: #40a3ff;
+}
+#back6 img{
+    width: 1.5vw;
+/*    height: 50px;*/
+    margin-right: 1vw;
+}
+#backtokalorie6{
+    width:15%;
+/*    height: 200px;*/
+/*    background-color: bisque;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 60vw;
+}
+#backtokalorie6 img{
+    width: 4vh;
+/*    height: 230px;*/
+}
+#questiontitle6{
+    width:100%;
+    height: 20vh;
+/*    background-color: rgba(255, 228, 196, 0.67);*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#questiontitle6 p{
+    font-family: JB;
+    font-size: 5vw;
+    text-align: center;
+/*    margin-top: 0px;*/
+}
+    #questiontitle6 br{
+        display: none;
+    }
+#caption6 br{
+    display: none;
+}
+#caption6 p{
+    font-family: JBC;
+    font-size: 2vw;
+    text-align: center;
+}
+#optionholder6{
+    width:90%;
+    height: 50vh;
+/*    background-color: antiquewhite;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+}
+#optionbox16, #optionbox26, #optionbox36 {
+    width: 25vw;
+    height: 30vh;
+    background-color: white;
+    margin: 2vw;
+    border-radius:40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#description1,#description3,#description2{
+    font-family: JBC;
+    font-size: 2.5vw;
+    text-align: center;
+}
+#description{
+    flex:3;
+}
+#description p{
+    font-family: JBC;
+    font-size: 50pt;
+    text-align: center;
+}
+#dss{
+    flex:3;
+}
+#dss p{
+    font-family: JBC;
+    font-size: 3vw;
+    text-align: right;
+}
+
+#arrowicon{
+    flex:1;
+    display: flex;
+}
+#arrowicon img{
+    width: 17vw;
+}
+
+#targetholder6{
+    width: 100vw;
+    height: 50vh;
+/*    background-color: antiquewhite;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+#optionbox46, #optionbox56{
+    width: 35vw;
+    height: 30vh;
+/*    background-color: white;*/
+    margin: 2vw;
+    border-radius:40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    
+}
+
+#optionbox56 {
+    color:#8F00F3;
+    background: linear-gradient(127deg, rgb(251, 226, 255), #FDEAFF);
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+    border-style:solid;
+    border-color: #8F00F3;
+    border-width: medium;
+    border-style:solid;
+    
+}
+#optionbox46 {
+   color: #00B39C;
+    background: linear-gradient(127deg, rgb(205, 255, 238), #E5FFFB);
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+    border-color: #00B39C;
+    border-width: medium;
+    border-style:solid;
+    
+}
+}

@@ -1,0 +1,582 @@
+
+/*iPhone X*/
+
+@media only screen and (max-device-width: 414px){
+#activityicon{
+    flex: 2;
+    width: 100%;
+    height: 100%;
+/*    background-color: #00AEEF;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+/*    margin-left: 60px*/
+}
+#activityicon img{
+width: 80%;
+}
+#description{
+    flex:3;
+/*    background-color: bisque;*/
+}
+#description p{
+    font-family: JBC;
+    font-size: 8vw;
+    text-align: center;
+}
+#targetholder6{
+    width: 100vw;
+    height: 50vh;
+/*    background-color: antiquewhite;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#optionbox46, #optionbox56{
+    width: 70vw;
+    height: 25vh;
+    background-color: white;
+    margin: 5vw;
+    border-radius:30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+/*    border-color: rgb(180, 180, 180);*/
+/*    border-width: medium;*/
+/*    border-style:solid;*/
+}
+
+#optionbox56 {
+    color:#8F00F3;
+    background: linear-gradient(127deg, rgb(251, 226, 255), #FDEAFF);
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+
+}
+#optionbox46 {
+   color: 00B39C;
+    background: linear-gradient(127deg, rgb(205, 255, 238), #E5FFFB);
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+}
+
+.average-box {
+    background: linear-gradient(127deg, rgb(108, 254, 203), rgb(80, 187, 191));
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+    width: 100%;
+    height:100%;
+    border-radius: 25px;
+}
+
+.average-icon{
+    height: 70%;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+}
+.overweight-icon{
+    height: 70%;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+}
+
+.living-healthy-icon{
+    flex: 3;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.losing-weight-icon{
+      flex: 3;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+}
+
+.average-icon img{
+    width: 50%;
+}
+.overweight-icon img{
+    width: 50%;
+}
+    
+
+.losing-weight-icon img{
+  height: 70%;
+}
+.living-healthy img{
+  width: 10%;
+  margin-top: 100px;
+}
+
+.average-name, .overweight-name, .living-healthy, .losing-weight{
+  flex: 1;
+}
+
+.average-name p{
+    font-family: JBC;
+    font-size: 8vw;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+
+}
+
+.overweight-box{
+      background: linear-gradient(127deg, rgb(254, 108, 108), rgb(165, 80, 191));
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+  width:100%;
+  height:100%;
+  border-radius: 30px;
+display: flex;
+    flex-direction: column;
+}
+
+.overweight-name p{
+    font-family: JBC;
+    font-size: 8vw;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+}
+    .overweight-name {
+        flex: 2;
+    }
+.living-healthy-box{
+      background-color: aquamarine;
+    background: linear-gradient(150deg, rgb(72, 254, 172), rgb(57, 196, 226));
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+    width:100%;
+  height:100%;
+  border-radius: 30px;
+}
+
+.living-healthy-name p{
+   font-family: JBC;
+    font-size: 50pt;
+    text-align: center;
+    color: white;
+}
+
+.losing-weight-box{
+   background-color: aquamarine;
+    background: linear-gradient(150deg, rgb(181, 115, 254), rgb(234, 6, 132));
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+      width:100%;
+      height:100%;
+  border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.losing-weight-name p{
+   font-family: JBC;
+    font-size: 8vw;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+}
+
+.low-box {
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 200%;
+    border-color: RGB(49, 209, 0);
+    border-width: medium;
+    border-style: solid;
+    width:100%;
+    height:100%;
+  border-radius: 25px;
+}
+
+
+.medium-box{
+    animation: AnimationName 5s ease infinite;
+    background-size: 200% 800%;
+    border-color: rgb(255, 220, 0);
+    border-width: medium;
+    border-style:solid;
+    width:100%;
+    height:100%;
+  border-radius: 25px;
+
+}
+
+.high-box{
+       animation: AnimationName 5s ease infinite;
+    background-size: 200% 800%;
+    border-color: RGB(228, 8, 38);
+    border-width: medium;
+    border-style:solid;
+    width:100%;
+    height:100%;
+  border-radius: 25px;
+}
+
+.extreme-box{
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 200%;
+    border-color: RGB(75, 56, 255);
+    border-width: medium;
+    border-style: solid;
+    width:100%;
+    height:100%;
+  border-radius: 25px;
+}
+
+.low-icon img{
+height: 70%;
+}
+.high-icon img{
+height: 70%;
+}
+.medium-icon img{
+height: 70%;
+}
+.extreme-icon img{
+height: 70%;
+}
+
+.low-icon, .medium-icon, .high-icon, .extreme-icon{
+    height: 70%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.low-name, .medium-name, .high-name, .extreme-name{
+height: 30%
+    }
+
+.low-name p{
+    font-family: JBC;
+    font-size: 8vw;
+    text-align: center;
+    margin-top:0px;
+    color: RGB(49, 209, 0);
+}
+.medium-name p{
+    font-family: JBC;
+    font-size: 8vw;
+    text-align: center;
+    margin-top:0px;
+    color: rgb(255, 220, 0);
+}
+.high-name p{
+    font-family: JBC;
+    font-size: 8vw;
+    text-align: center;
+    margin-top:0px;
+    color: RGB(228, 8, 38);
+}
+.extreme-name p{
+    font-family: JBC;
+    font-size: 8vw;
+    text-align: center;
+    margin-top:0px;
+    color: RGB(75, 56, 255);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*iMac 5K*/
+
+@media only screen and (min-device-width: 414px){
+
+   
+
+#description{
+    flex:1;
+/*    background-color: bisque;*/
+}
+#description p{
+    font-family: JBC;
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+
+ 
+#optionbox56 {
+    color:#8F00F3;
+    background: linear-gradient(127deg, rgb(251, 226, 255), #FDEAFF);
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+    border-color: 8F00F3;
+    border-width: thick;
+    border-style:solid;
+
+}
+#optionbox46 {
+   color: #00B39C;
+    background: linear-gradient(127deg, rgb(205, 255, 238), #E5FFFB);
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+    border-color: 00B39C;
+    border-width: thick;
+    border-style:solid;
+}
+
+.average-box {
+    background: linear-gradient(127deg, rgb(108, 254, 203), rgb(80, 187, 191));
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+    width: 100%;
+    height:100%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.average-icon{
+    flex: 3;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+}
+.overweight-icon{
+    flex: 3;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+}
+
+.living-healthy-icon{
+    flex: 3;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.losing-weight-icon{
+      flex: 3;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+.overweight-icon img{
+    width: 40%;
+    margin-top: 30px;
+}
+.average-icon img{
+    width: 40%;
+    margin-top: 30px;
+}
+
+.living-healthy img, .losing-weight img{
+  width: 10%;
+  margin-top: 100px;
+}
+
+.average-name, .overweight-name, .living-healthy, .losing-weight{
+  flex: 1;
+}
+
+.average-name p{
+    font-family: JBC;
+    font-size: 50pt;
+    text-align: center;
+    line-height: 5px;
+    color: white;
+    margin-bottom: 115px;
+
+}
+
+.overweight-box{
+      background: linear-gradient(127deg, rgb(254, 108, 108), rgb(165, 80, 191));
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+  width:100%;
+  height:100%;
+  border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.overweight-name p{
+    font-family: JBC;
+    font-size: 50pt;
+    text-align: center;
+    line-height: 5px;
+    color: white;
+    margin-bottom: 115px;
+
+}
+.living-healthy-box{
+    background: linear-gradient(150deg, rgb(72, 254, 172), rgb(57, 196, 226));
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+    width:100%;
+  height:100%;
+  border-radius: 25px;
+}
+
+.living-healthy-name p{
+   font-family: JBC;
+    font-size: 50pt;
+    text-align: center;
+    line-height: 5px;
+    color: white;
+    margin-bottom: 115px;
+}
+
+.losing-weight-box{
+   background-color: aquamarine;
+    background: linear-gradient(150deg, rgb(181, 115, 254), rgb(234, 6, 132));
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+      width:100%;
+      height:100%;
+  border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.losing-weight-name p{
+   font-family: JBC;
+    font-size: 50pt;
+    text-align: center;
+    line-height: 5px;
+    color: white;
+    margin-bottom: 115px;
+}
+
+.low-box {
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 200%;
+    border-color: RGB(49, 209, 0);
+    border-width: thick;
+    border-style: solid;
+    width:100%;
+    height:100%;
+  border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.medium-box{
+    animation: AnimationName 5s ease infinite;
+    background-size: 200% 800%;
+    border-color: rgb(255, 220, 0);
+    border-width: thick;
+    border-style:solid;
+    width:100%;
+    height:100%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.high-box{
+       animation: AnimationName 5s ease infinite;
+    background-size: 200% 800%;
+    border-color: RGB(228, 8, 38);
+    border-width: thick;
+    border-style:solid;
+    width:100%;
+    height:100%;
+  border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.extreme-box{
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 200%;
+    border-color: RGB(75, 56, 255);
+    border-width: thick;
+    border-style: solid;
+    width:100%;
+    height:100%;
+  border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.low-icon img{
+height: 65%;
+}
+.medium-icon img{
+height: 65%;
+}
+ .high-icon img{
+height: 65%;
+}
+.extreme-icon img{
+height: 65%;
+}
+   
+    
+
+.low-icon, .medium-icon, .high-icon, .extreme-icon{
+      flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.low-name, .medium-name, .high-name, .extreme-name{
+      flex:2;
+}
+
+.low-name p{
+    font-family: JBC;
+    font-size: 50pt;
+    text-align: center;
+    margin-top:10px;
+    color:RGB(49, 209, 0);
+}
+.medium-name p{
+    font-family: JBC;
+    font-size: 50pt;
+    text-align: center;
+    margin-top:10px;
+    color: rgb(255, 220, 0);
+}
+.high-name p{
+    font-family: JBC;
+    font-size: 50pt;
+    text-align: center;
+    margin-top:10px;
+    color: RGB(228, 8, 38);
+}
+.extreme-name p{
+    font-family: JBC;
+    font-size: 50pt;
+    text-align: center;
+    margin-top:10px;
+    color: RGB(75, 56, 255);
+}
+}

@@ -1,0 +1,20 @@
+@font-face{
+    font-family: SFSB;
+    src: url(../fonts/SFProDisplay-SemiBold.ttf)
+}
+@font-face{
+    font-family: SFR;
+    src: url(../fonts/SFProDisplay-Regular.ttf)
+}
+@font-face{
+    font-family: SFL;
+    src: url(../fonts/SFProDisplay-Light.ttf)
+}
+@font-face{
+    font-family: JBC;
+    src: url(../fonts/SF-Compact-Rounded-Regular.ttf)
+}
+@font-face{
+    font-family: JB;
+    src: url(../fonts/JayBirdy.ttf)
+}

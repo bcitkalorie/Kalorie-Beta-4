@@ -1,0 +1,518 @@
+@keyframes AnimationName { 
+    0%{background-position:0% 20%}
+    50%{background-position:100% 81%}
+    100%{background-position:0% 20%}
+}
+@media only screen and (max-device-width: 414px){
+#appw{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-left: 100vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 300vh;
+    background: linear-gradient(150deg, #950CBF, #EB03FF, #7301A8, #950CBF);
+    animation: AnimationName 10s ease infinite;
+    background-size: 800% 800%;
+}
+#menuw{
+    width:100%;
+    height: 13vw;
+/*background-color: azure;*/
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+}
+#backw{
+    width: 30%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+/*background-color: #d49aff;*/
+/*margin-left: 30px;*/
+}
+#backw p{
+    font-family: JBC;
+    font-size: 8vw;
+    color: white;
+}
+#backw img{
+    width: 4vw;
+/*    height: 40px;*/
+    margin-right: 3vw;
+}
+#backtokaloriew{
+    width:15%;
+/*    height: 200px;*/
+/*background-color: bisque;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 55vw;
+}
+#backtokaloriew img{
+    width: 4vh;
+/*    height: 210px;*/
+}
+#workouts p{
+    font-family: JB;
+    font-size: 15vw;
+    color: white;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    text-align: center;
+}
+#optionholderw{
+    width: 100%;
+    height: 230vh;
+/*    background-color: wheat;*/
+/*    margin-top: 80px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#optionbox1w, #optionbox2w, #optionbox3w, #optionbox4w {
+    width: 90vw;
+    height: 60vh;
+    background-color: white;
+    margin: 5vw;
+    border-radius:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#iconw{
+    margin-top: 5vw;
+}
+#iconw img{
+    width: 20vw;
+    height: 10vh;
+}
+#itemnamew p{
+    text-align: center;
+    font-family: JB;
+    font-size: 10vw;
+    color: #830BB6;
+    margin-top: 30px;
+/*    margin-bottom: 30px;*/
+}
+#wdetails{
+    width: 80%;
+    height: 35%;
+/*    background-color: wheat;*/
+    display: flex;
+    flex-direction: row;
+/*    margin-top: 20pt;*/
+}
+#wtime, #speed, #calsw{
+    flex: 1;
+    justify-content: center;
+}
+#bike-time-numberw p{
+    font-family: JB;
+    font-size: 12vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #bike-speed-numberw p{
+    font-family: JB;
+    font-size: 12vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #bike-cals-numberw p{
+    font-family: JB;
+    font-size: 12vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #walk-time-numberw p{
+    font-family: JB;
+    font-size: 12vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #walk-speed-numberw p{
+    font-family: JB;
+    font-size: 12vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #walk-cals-numberw p{
+    font-family: JB;
+    font-size: 12vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #run-time-numberw p{
+    font-family: JB;
+    font-size: 12vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #run-speed-numberw p{
+    font-family: JB;
+    font-size: 12vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #run-cals-numberw p{
+    font-family: JB;
+    font-size: 12vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #yoga-time-numberw p{
+    font-family: JB;
+    font-size: 12vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #yoga-speed-numberw p{
+    font-family: JB;
+    font-size: 12vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #yoga-cals-numberw p{
+    font-family: JB;
+    font-size: 12vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    
+#textw p{
+    font-family: JBC;
+    font-size: 5vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#descriptionr{
+    flex: 2;
+}
+#descriptionr p{
+    font-family: JBC;
+    font-size: 10vw;
+    text-align: center;
+/*    margin-left: 120px;*/
+    color: #31b98b;
+}
+#arrowiconw{
+    flex: 1;
+/*    background-color: #00AEEF;*/
+    display: flex;
+    align-items: center;
+}
+#arrowiconw img{
+width: 70%;
+}
+#optionbox4wr{
+    width: 90vw;
+    height: 25vh;
+    background-color: white;
+    margin: 5vw;
+    border-radius:30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(127deg, rgb(205, 255, 238), #E5FFFB);
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 414px){
+#appw{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-left: 100vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 160vh;
+    background: linear-gradient(150deg, #950CBF, #EB03FF, #7301A8, #950CBF);
+    animation: AnimationName 10s ease infinite;
+    background-size: 800% 800%;
+}
+#menuw{
+    width:100%;
+    height: 13vw;
+/*background-color: azure;*/
+    align-items: center;
+    display: flex;
+/*    margin-top: 20px;*/
+}
+#backw{
+    width: 20vw;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+/*background-color: #d49aff;*/
+margin-left: 3vw;
+}
+#backw p{
+    font-family: JBC;
+    font-size: 3vw;
+    color: white;
+}
+#backw img{
+    width: 1.5vw;
+/*    height: 40px;*/
+    margin-right: 1vw;
+}
+#backtokaloriew{
+    width:15%;
+/*    height: 200px;*/
+/*background-color: bisque;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 60vw;
+}
+#backtokaloriew img{
+    width: 4vh;
+/*    height: 210px;*/
+}
+#workouts p{
+    font-family: JB;
+    font-size: 5vw;
+    color: white;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    text-align: center;
+}
+#optionholderw{
+    width: 95%;
+    height: 50vh;
+/*    background-color: wheat;*/
+/*    margin-top: 80px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#optionbox1w, #optionbox2w, #optionbox3w, #optionbox4w {
+    width: 25vw;
+    height: 40vh;
+    background-color: white;
+    margin: 1vw;
+    border-radius:40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#iconw{
+    margin-top: 3vw;
+}
+#iconw img{
+    width: 10vw;
+    height: 10vh;
+}
+#itemnamew p{
+    text-align: center;
+    font-family: JB;
+    font-size: 2.5vw;
+    color: #830BB6;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+#wdetails{
+    width: 80%;
+    height: 35%;
+/*    background-color: wheat;*/
+    display: flex;
+    flex-direction: row;
+    margin-top: 20pt;
+}
+#wtime, #speed, #calsw{
+    flex: 1;
+/*    justify-content: center;*/
+}
+#bike-time-numberw p{
+    font-family: JB;
+    font-size: 3vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #bike-speed-numberw p{
+    font-family: JB;
+    font-size: 3vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #bike-cals-numberw p{
+    font-family: JB;
+    font-size: 3vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #walk-time-numberw p{
+    font-family: JB;
+    font-size: 3vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #walk-speed-numberw p{
+    font-family: JB;
+    font-size: 3vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #walk-cals-numberw p{
+    font-family: JB;
+    font-size: 3vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #run-time-numberw p{
+    font-family: JB;
+    font-size: 3vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #run-speed-numberw p{
+    font-family: JB;
+    font-size: 3vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #run-cals-numberw p{
+    font-family: JB;
+    font-size: 3vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #yoga-time-numberw p{
+    font-family: JB;
+    font-size: 3vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #yoga-speed-numberw p{
+    font-family: JB;
+    font-size: 3vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #yoga-cals-numberw p{
+    font-family: JB;
+    font-size: 3vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    
+#textw p{
+    font-family: JBC;
+    font-size: 1vw;
+    color: #830BB6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#descriptionr{
+    flex: 2;
+}
+#descriptionr p{
+    font-family: JBC;
+    font-size: 3vw;
+    text-align: center;
+/*    margin-left: 120px;*/
+    color: #31b98b;
+}
+#arrowiconw{
+    flex: 1;
+/*    background-color: #00AEEF;*/
+    display: flex;
+    align-items: center;
+}
+#arrowiconw img{
+width: 70%;
+}
+#optionbox4wr{
+    width: 30vw;
+    height: 25vh;
+    background-color: white;
+    margin: 5vw;
+    border-radius:30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(127deg, rgb(205, 255, 238), #E5FFFB);
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+}
+}

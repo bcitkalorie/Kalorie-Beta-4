@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+  <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+
+      <link href="CSS/fonts.css" type="text/css" rel="stylesheet">
+    <link href="CSS/app1.css" type="text/css" rel="stylesheet">
+    <link href="CSS/app2.css" type="text/css" rel="stylesheet">
+    <link href="CSS/app3.css" type="text/css" rel="stylesheet">
+    <link href="CSS/app4.css" type="text/css" rel="stylesheet">
+    <link href="CSS/app5.css" type="text/css" rel="stylesheet">
+    <link href="CSS/app6.css" type="text/css" rel="stylesheet">
+    <link href="CSS/appr.css" type="text/css" rel="stylesheet">
+    <link href="CSS/appw.css" type="text/css" rel="stylesheet">
+    <link href="CSS/AppRecipe.css" type="text/css" rel="stylesheet">
+    <link href="CSS/mon.css" type="text/css" rel="stylesheet">
+
+    <title>Kalorie</title>
+
+    <style>
+        body {
+            overflow-x:hidden;
+            overflow-y: scroll;
+        }
+    </style>
+    </head>
+<body>
+    <link rel="icon" src="images/Kalorie%20app.svg">
+    <div id="app1">
+        <div id="rabbitear1"></div>
+        <div id="bigtitle">
+            <p>Welcome to Kalorie</p>
+        </div>
+        <div id="imagebox">
+            <img src="images/Kalorie%20Logo%20White.svg">
+        </div>
+        <div id="descriptionsbox">
+            <p>With some time and patience,<br> Kalorie will help you achieve your <br>healthy goals a little bit easier!</p>
+        </div>
+        <div id="letsgo" onclick="gotoapp2()">
+            <p>Let's Go!</p>
+        </div>
+    </div>
+
+<!--    APP 2-->
+
+    <div id="app2">
+        <div id="rabbitear2"></div>
+        <div id="menu2">
+            <div id="back2" onclick="gotoapp1()">
+                <img src="images/Arrow%20up.svg">
+                <p>Back</p>
+            </div>
+            <div id="backtokalorie2" onclick="gotoapp1()">
+                <img src="images/Kalorie%20Logo%20Color.svg">
+            </div>
+
+        </div>
+        <div id="questiontitle2">
+            <p> What is your<br> Body type?</p>
+        </div>
+        <div id="optionholder2">
+
+            <div id="optionbox12" onclick="gotoapp3()">
+                <div id="iconbox2" onclick="BodType('Average')">
+                    <img src="images/Avarge%20Weight.svg">
+                </div>
+                <div id="namebox2" onclick="BodType('Average')">
+                    <p>Average</p>
+                </div>
+            </div>
+
+            <div id="optionbox22" onclick="gotoapp3()">
+                <div id="iconbox2" onclick="BodType('Overweight')">
+                    <img src="images/Overweight.svg">
+                </div>
+                <div id="namebox2"  onclick="BodType('Overweight')">
+                    <p>Overweight</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--    APP 3 -->
+
+    <div id="app3">
+        <div id="rabbitear3"></div>
+        <div id="menu3">
+            <div id="back3" onclick="backtoapp2()">
+                <img src="images/Arrow%20up.svg">
+                <p>Back</p>
+            </div>
+            <div id="backtokalorie3">
+                <img src="images/Kalorie%20Logo%20Color.svg">
+            </div>
+        </div>
+        <div id="questiontitle3">
+            <p> What is your<br> Goal with Kalorie?</p>
+        </div>
+        <div id="optionholder3">
+            <div id="optionbox13" onclick="gotoapp4()">
+                <div id="iconbox3" onclick="Changegoal('healthy')">
+                    <img src="images/Living%20healthy.svg">
+                </div>
+                <div id="namebox3" onclick="Changegoal('healthy')">
+                    <p>Living Healthy</p>
+                </div>
+            </div>
+
+            <div id="optionbox23" onclick="gotoapp4()">
+                <div id="iconbox3" onclick="Changegoal('losing weight')">
+                    <img src="images/Lose%20Weight.svg">
+                </div>
+                <div id="namebox3"  onclick="Changegoal('losing weight')">
+                    <p>Losing Weight</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--    APP 4-->
+
+
+    <div id="app4">
+        <div id="rabbitear4"></div>
+        <div id="menu4">
+
+            <div id="back4" onclick="backtoapp3()">
+                <img src="images/Arrow%20up.svg">
+                <p>Back</p>
+
+            </div>
+            <div id="backtokalorie4">
+                <img src="images/Kalorie%20Logo%20Color.svg">
+                </div>
+        </div>
+        <div id="questiontitle4">
+            <p> What is your<br> Activity level?</p>
+        </div>
+        <div id="optionholder4">
+
+            <div id="optionbox14" onclick="gotoapp5()">
+                <div id="activityicon" onclick="actLevel('low')">
+                    <img src="images/Low.svg">
+                </div>
+                <div id="description" onclick="actLevel('low')">
+                    <p>Low</p>
+                </div>
+                </div>
+
+            <div id="optionbox24" onclick="gotoapp5()">
+                <div id="activityicon" onclick="actLevel('medium')">
+                    <img src="images/Meddium.svg">
+                </div>
+                <div id="description" onclick="actLevel('medium')">
+                    <p>Medium</p>
+                </div>
+                </div>
+
+            <div id="optionbox34" onclick="gotoapp5()">
+                <div id="activityicon" onclick="actLevel('high')">
+                    <img src="images/High.svg">
+                </div>
+                <div id="description" onclick="actLevel('high')">
+                    <p>High</p>
+                </div>
+                </div>
+
+            <div id="optionbox44" onclick="gotoapp5()">
+                <div id="activityicon" onclick="actLevel('extreme')">
+                    <img src="images/Extreme.svg">
+                </div>
+                <div id="description" onclick="actLevel('extreme')">
+                    <p>Extreme</p>
+                </div>
+                </div>
+        </div>
+    </div>
+
+<!--    APP 5-->
+
+    <div id="app5">
+        <div id="rabbitear5"></div>
+        <div id="questiontitle5">
+            <p> Calculating...</p>
+        </div>
+        <div id="flower">
+            <img src="images/Flower@10x.png">
+        </div>
+
+    </div>
+
+
+<!--    APP 6-->
+
+    <div id="app6">
+        <div id="rabbitear6"></div>
+        <div id="menu6">
+            <div id="back6" onclick="backtoapp4()">
+                <img src="images/Arrow%20up.svg">
+                 <p>Back</p>
+                </div>
+            <a href="Index.html">
+            <div id="backtokalorie6">
+                <img src="  images/Kalorie%20Logo%20Color.svg">
+                </div></a>
+        </div>
+        <div id="questiontitle6">
+            <p> We've found a<br> solution for you!</p>
+        </div>
+        <div id="caption6">
+            <p>We found some great recipes and <br>exercise based on your:</p>
+        </div>
+        <div id="optionholder6">
+            <div id="optionbox16">
+                <div id="description1">
+
+                </div>
+            </div>
+            <div id="optionbox26">
+                <div id="description2">
+
+                </div>
+            </div>
+            <div id="optionbox36">
+                <div id="description3">
+
+                </div>
+            </div>
+        </div>
+        <div id="caption6">
+            <p>Here are some workouts and recipes <br>for you:</p>
+        </div>
+        <div id="targetholder6">
+
+            <div id="optionbox46" onclick="gotoappr()">
+                <div id="dss">
+                    <p>Recipes</p>
+                </div>
+                 <div id="arrowicon">
+                    <img src="images/Recipe%20arrow.svg">
+                </div>
+                </div>
+
+            <div id="optionbox56" onclick="gotoappw()">
+                <div id="dss">
+                    <p>Workouts</p>
+                </div>
+                <div id="arrowicon">
+                    <img src="images/Workout%20arrow.svg">
+                </div>
+                </div>
+        </div>
+    </div>
+
+<!--    APP R-->
+
+    <div id="appr">
+        <div id="menur">
+
+            <div id="backr" onclick="backtoapp6()">
+                <img src="images/White%20arrow%20up.svg">
+                <p>Back</p>
+
+            </div>
+            <a href="Index.html">
+            <div id="backtokalorier">
+                <img src="images/Kalorie%20Logo%20White.svg">
+                </div></a>
+        </div>
+        <div id="recipes">
+                <p>Recipes</p>
+            </div>
+        <div id="optionholderr">
+            <div id="optionbox1r" onclick="gotoappRecipe()">
+                <img id="honey1" src="images/Honey%201.svg">
+                <img id="honeya" src="images/Honey.svg">
+                <img id="honeyb" src="images/Honey.svg">
+            </div>
+
+            <div id="optionbox2r" onclick="gotoappRecipe()">
+                <img id="honey2" src="images/Honey%202.svg">
+                <img id="honeya" src="images/Honey.svg">
+                <img id="honeyb" src="images/Honey.svg">
+                </div>
+
+            <div id="optionbox3r" onclick="gotoappRecipe()">
+                <img id="honey3" src="images/Honey%203.svg">
+                <img id="honeya" src="images/Honey.svg">
+                <img id="honeyb" src="images/Honey.svg">
+                 
+                </div>
+
+            <div id="optionbox4r" onclick="gotoappRecipe()">
+                <img id="honey4" src="images/Honey%204.svg">
+                 <img id="honeya" src="images/Honey.svg">
+                 <img id="honeyb" src="images/Honey.svg">
+                </div>
+        </div>
+
+            <div id="optionbox4rw"  onclick="gotoappw2()">
+                <div id="descriptionw">
+                    <p>Workouts</p>
+                </div>
+                 <div id="arrowiconr">
+                    <img src="images/Workout%20arrow.svg">
+                </div>
+                </div>
+    </div>
+
+
+<!--    APP W-->
+
+
+    <div id="appw">
+        <div id="menuw">
+
+            <div id="backw" onclick="backtoapp6()">
+                <img src="images/White%20arrow%20up.svg">
+                <p>Back</p>
+
+                </div>
+            <a href="Index.html">
+            <div id="backtokaloriew">
+                <img src="images/Kalorie%20Logo%20White.svg">
+                </div></a>
+        </div>
+
+        <div id="workouts">
+                <p>Workouts</p>
+            </div>
+        <div id="optionholderw">
+            <div id="optionbox1w">
+                <div id="iconw">
+                    <img src="images/Bike.svg" style="width: 300px;">
+                </div>
+                <div id="itemnamew">
+                    <p>Bike</p>
+                </div>
+                <div id="wdetails">
+                    <div id="wtime">
+                        <div id="bike-time-numberw">
+                            <p>15</p>
+                        </div>
+                        <div id="textw">
+                            <p>minutes</p>
+                        </div>
+                    </div>
+                    <div id="speed">
+                    <div id="bike-speed-numberw">
+                            <p>30</p>
+                        </div>
+                        <div id="textw">
+                            <p>km/h</p>
+                        </div></div>
+                    <div id="calsw">
+                        <div id="bike-cals-numberw">
+                            <p>90</p>
+                        </div>
+                        <div id="textw">
+                            <p>cals</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="optionbox2w">
+                 <div id="iconw">
+                    <img src="images/Walk.svg" style="width: 160px;">
+                </div>
+                <div id="itemnamew">
+                    <p>Walk</p>
+                </div>
+                <div id="wdetails">
+                    <div id="wtime">
+                        <div id="walk-time-numberw">
+                            <p>15</p>
+                        </div>
+                        <div id="textw">
+                            <p>minutes</p>
+                        </div>
+                    </div>
+                    <div id="speed">
+                    <div id="walk-speed-numberw">
+                            <p>10</p>
+                        </div>
+                        <div id="textw">
+                            <p>km/h</p>
+                        </div></div>
+                    <div id="calsw">
+                        <div id="walk-cals-numberw">
+                            <p>60</p>
+                        </div>
+                        <div id="textw">
+                            <p>cals</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="optionbox3w">
+                 <div id="iconw">
+                    <img src="images/Run.svg" style="width: 180px;">
+                </div>
+                <div id="itemnamew">
+                    <p>Run</p>
+                </div>
+                <div id="wdetails">
+                    <div id="wtime">
+                        <div id="run-time-numberw">
+                            <p>15</p>
+                        </div>
+                        <div id="textw">
+                            <p>minutes</p>
+                        </div>
+                    </div>
+                    <div id="speed">
+                    <div id="run-speed-numberw">
+                            <p>20</p>
+                        </div>
+                        <div id="textw">
+                            <p>km/h</p>
+                        </div></div>
+                    <div id="calsw">
+                        <div id="run-cals-numberw">
+                            <p>90</p>
+                        </div>
+                        <div id="textw">
+                            <p>cals</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="optionbox4w">
+                 <div id="iconw">
+                    <img src="images/Yoga.svg" style="width: 220px;">
+                </div>
+                <div id="itemnamew">
+                    <p>Yoga</p>
+                </div>
+                <div id="wdetails">
+                    <div id="wtime">
+                        <div id="yoga-time-numberw">
+                            <p>30</p>
+                        </div>
+                        <div id="textw">
+                            <p>minutes</p>
+                        </div>
+                    </div>
+                    <div id="speed">
+                    <div id="yoga-speed-numberw">
+                            <p>5</p>
+                        </div>
+                        <div id="textw">
+                            <p>positions</p>
+                        </div></div>
+                    <div id="calsw">
+                        <div id="yoga-cals-numberw">
+                            <p>120</p>
+                        </div>
+                        <div id="textw">
+                            <p>cals</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div id="optionbox4wr" onclick="gotoappr2()">
+                <div id="descriptionr">
+                    <p>Recipes</p>
+                </div>
+                 <div id="arrowiconw">
+                    <img src="images/Recipe%20arrow.svg" >
+                </div>
+                </div>
+    </div>
+
+<!--    APP RECIPE-->
+
+    <div id="apprecipes">
+        <div id="reciperabbitear"></div>
+        <div id="menurecipe">
+            <div id="backrecipe" onclick="backtoappr()">
+                <img src="images/White%20arrow%20up.svg">
+                <p>Back</p>
+                </div>
+            <a href="Index.html">
+            <div id="backtokalorierecipe">
+                <img src="images/Kalorie%20Logo%20White.svg">
+                </div></a>
+        </div>
+        <div id="foodname">
+                <p>English Breakfast</p>
+            </div>
+        <div id="recipebox">
+            <div id="recipebox1">
+            <div id="recipesection">
+                <p>Ingridients:</p>
+            </div>
+            <div id="recipeimage1">
+                <img src="images/English%20Bfast%20I.png">
+            </div>
+            <div id="ingridiens">
+                <ul>
+                   <li> 2 Eggs</li>
+                   <li> 1 Cup Mushrooms</li>
+                   <li> ¼ Cup Baked Beans</li>
+                   <li> 2 Leafs Lettuce</li>
+                   <li> 1 Ripe Tomato</li>
+                   <li> 1 Sweet Potato</li>
+                   <li> Salt - to taste</li>
+                   <li> Pepper - to taste</li>
+                   <li> Olive oil</li>
+                </ul>
+            </div>
+                </div>
+            <div id="recipebox2">
+            <div id="recipesection">
+                <p>Intructions:</p>
+            </div>
+            <div id="recipeimage2">
+                <img src="images/English%20Bfast%20R.png">
+            </div>
+            <div id="instructions">
+                <ul>
+                   <li> Preheat oven to 300ºC - 420ºF</li>
+                   <li> Slice the tomato to ¼ in slices</li>
+                   <li> Cut mushrooms in half</li>
+                   <li> Slice the Sweet Potato to wedges, seasons with salt, peppers and Olive Oil</li>
+                   <li>Bake the Sweet Potato for 30 minutes, flip half-way</li>
+                   <li>In a medium heat scillet, sauté the mushrooms until tender with olive oil</li>
+                   <li>Sear the tomato and get some browning</li>
+                   <li>Fried the eggs to your desire</li>
+                   <li>Serve hot with salt and pepper, garnish with beked beans and lettuce</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- <script src="JS/mon.js"></script> -->
+    <script src="JS/app.js"></script>
+    <script src="JS/app1.js"></script>
+
+    </body>
+
+
+</html>

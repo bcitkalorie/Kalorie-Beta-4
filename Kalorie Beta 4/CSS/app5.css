@@ -1,0 +1,103 @@
+@keyframes AnimationName { 
+    0%{background-position:0% 20%}
+    50%{background-position:100% 81%}
+    100%{background-position:0% 20%}
+}
+
+@keyframes Spinandscale1{
+    0%{transform: rotate(0deg) scale(1) ;}
+    100%{transform: rotate(-100deg) scale(0.1) ;}
+}
+@media only screen and (max-device-width: 414px){
+#app5{
+    width:100vw;
+    height:100vh;
+/*    background-color: #ffbdbd;*/
+    position: fixed;
+    margin-left: 100vw;
+    top: 0px;
+/*    margin-top: 4827px;*/
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+    
+/*    display: none;*/
+}
+#rabbitear5{
+    width:100%;
+    height:5vh;
+}
+
+#questiontitle5{
+    width:100%;
+    height: 20vh;
+/*    background-color: rgba(255, 228, 196, 0.67);*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#questiontitle5 p{
+    font-family: JB;
+    font-size: 10vw;
+    text-align: center;
+}
+#flower img{
+    width: 60vw;
+    height: 60vw;
+/*    background-color: aquamarine;*/
+    margin-top: 10vh;
+    animation: Spinandscale1 1.5s ease-in-out infinite alternate;
+}
+}
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 414px){
+#app5{
+    width:100vw;
+    height:100vh;
+/*    background-color: #ffbdbd;*/
+    position: absolute;
+    margin-left: 100vw;
+    top: 0px;
+/*    margin-top: 4827px;*/
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+    
+/*    display: none;*/
+}
+#rabbitear5{
+    width:100%;
+    height:5vh;
+}
+
+#questiontitle5{
+    width:100%;
+    height: 30vh;
+/*    background-color: rgba(255, 228, 196, 0.67);*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#questiontitle5 p{
+    font-family: JB;
+    font-size: 4vw;
+    text-align: center;
+}
+#flower img{
+    width: 30vw;
+    height: 30vw;
+/*    background-color: aquamarine;*/
+    margin-top: 5vh;
+    animation: Spinandscale1 1.5s ease-in-out infinite alternate;
+}
+}

@@ -1,0 +1,444 @@
+@keyframes AnimationName { 
+    0%{background-position:0% 20%}
+    50%{background-position:100% 81%}
+    100%{background-position:0% 20%}
+}
+
+@keyframes Spin1{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+@keyframes Spin2{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(-360deg);}
+}
+
+@media only screen and (max-device-width: 414px){
+#appr{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-left: 100vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 300vh;
+    background: linear-gradient(150deg, #29FFA2, #80BFC9, #29FFA2, #80BFC9, #29FFA2);
+    animation: AnimationName 10s ease infinite;
+    background-size: 800% 800%;
+    
+}
+#menur{
+    width:100%;
+    height: 13vw;
+/*background-color: azure;*/
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+}
+#backr{
+    width: 30%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+/*background-color: #d49aff;*/
+/*margin-left: 3vw;*/
+}
+#backr p{
+    font-family: JBC;
+    font-size: 8vw;
+    color: white;
+}
+#backr img{
+    width: 4vw;
+/*    height: 40px;*/
+    margin-right: 3vw;
+}
+#backtokalorier{
+    width:15%;
+/*    height: 200px;*/
+/*background-color: bisque;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 55vw;
+}
+#backtokalorier img{
+    width: 4vh;
+/*    height: 210px;*/
+}
+#recipes p{
+    font-family: JB;
+    font-size: 15vw;
+    color: white;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    text-align: center;
+}
+#optionholderr{
+    width: 100%;
+    height: 180vh;
+/*    background-color: wheat;*/
+/*    margin-top: 80px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#optionbox1r, #optionbox2r, #optionbox3r, #optionbox4r{
+    width: 90vw;
+    height: 40vh;
+/*    background-color: white;*/
+    margin: 5vw;
+    border-radius:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+    
+    
+    
+    #honeya{
+        width: 70vw;
+        position: absolute;
+        animation: Spin1 10s ease-in-out infinite;
+    }
+    #honeyb{
+        width: 70vw;
+        position: absolute;
+        animation: Spin2 10s ease-in-out infinite;
+    }
+    #honey1{
+        width: 70vw;
+        position: absolute;
+    }
+    #honey2{
+        width: 70vw;
+        position: absolute;
+    }
+    #honey3{
+        width: 70vw;
+        position: absolute;
+    }
+    #honey4{
+        width: 70vw;
+        position: absolute;
+    }
+    
+#iconr{
+    margin-top: 5vw;
+}
+#iconr img{
+    width: 20vw;
+    height: 10vh;
+}
+#itemname p{
+    text-align: center;
+    font-family: JB;
+    font-size: 10vw;
+    color: #31b98b;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+#fooddetails{
+    width: 80%;
+    height: 35%;
+/*    background-color: wheat;*/
+    display: flex;
+    flex-direction: row;
+    margin-top: 20pt;
+}
+#cooktime, #preptime, #cals{
+    flex: 1;
+    justify-content: center;
+}
+#prepnumber p{
+    font-family: JB;
+    font-size: 12vw;
+    color: #31b98b;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #cooknumber p{
+    font-family: JB;
+    font-size: 12vw;
+    color: #31b98b;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #calsnumber p{ 
+    font-family: JB;
+    font-size: 12vw;
+    color: #31b98b;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#text p{
+    font-family: JBC;
+    font-size: 5vw;
+    color: #31b98b;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#descriptionw{
+    flex: 2;
+}
+#descriptionw p{
+    font-family: JBC;
+    font-size: 10vw;
+    text-align: center;
+/*    margin-left: 100px;*/
+    color: #830BB6;
+}
+#arrowiconr{
+    flex: 1;
+    display: flex;
+    align-items: center;
+/*    justify-content: center;*/
+}
+#arrowiconr img{
+width: 70%;
+}
+#optionbox4rw{
+    width: 90vw;
+    height: 25vh;
+    background-color: white;
+    margin: 5vw;
+    border-radius:30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(127deg, rgb(251, 226, 255), #FDEAFF);
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 414px){
+#appr{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-left: 100vw;
+    align-items: center;
+/*    justify-content: center;*/
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 160vh;
+    background: linear-gradient(150deg, #29FFA2, #80BFC9, #29FFA2, #80BFC9, #29FFA2);
+    animation: AnimationName 10s ease infinite;
+    background-size: 800% 800%;
+    
+}
+#menur{
+    width:100%;
+    height: 13vw;
+/*background-color: azure;*/
+    align-items: center;
+    display: flex;
+/*    margin-top: 20px;*/
+}
+#backr{
+    width: 20vw;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+/*background-color: #d49aff;*/
+margin-left: 3vw;
+}
+#backr p{
+    font-family: JBC;
+    font-size: 3vw;
+    color: white;
+}
+#backr img{
+    width: 1.5vw;
+/*    height: 40px;*/
+    margin-right: 1vw;
+}
+#backtokalorier{
+    width:15%;
+/*    height: 200px;*/
+/*background-color: bisque;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 60vw;
+}
+#backtokalorier img{
+    width: 4vh;
+/*    height: 210px;*/
+}
+#recipes p{
+    font-family: JB;
+    font-size: 5vw;
+    color: white;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    text-align: center;
+}
+#optionholderr{
+    width: 95%;
+    height: 50vh;
+/*    background-color: wheat;*/
+/*    margin-top: 80px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#optionbox1r, #optionbox2r, #optionbox3r, #optionbox4r{
+    width: 25vw;
+    height: 40vh;
+/*    background-color: white;*/
+    margin: 1vw;
+    border-radius:40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    #honeya{
+        width: 20vw;
+        position: absolute;
+        animation: Spin1 10s ease-in-out infinite;
+    }
+    #honeyb{
+        width: 20vw;
+        position: absolute;
+        animation: Spin2 10s ease-in-out infinite;
+    }
+    #honey1{
+        width: 20vw;
+        position: absolute;
+    }
+    #honey2{
+        width: 20vw;
+        position: absolute;
+    }
+    #honey3{
+        width: 20vw;
+        position: absolute;
+    }
+    #honey4{
+        width: 20vw;
+        position: absolute;
+    }
+    
+    
+    
+    
+    
+    
+    
+#iconr{
+    margin-top: 3vh;
+}
+#iconr img{
+    width: 10vw;
+    height: 10vh;
+}
+#itemname p{
+    text-align: center;
+    font-family: JB;
+    font-size: 2.5vw;
+    color: #31b98b;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+#fooddetails{
+    width: 80%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20pt;
+}
+#cooktime, #preptime, #cals{
+    flex: 1;
+}
+#prepnumber p{
+    font-family: JB;
+    font-size: 3vw;
+    color: #31b98b;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #cooknumber p{
+    font-family: JB;
+    font-size: 3vw;
+    color: #31b98b;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    #calsnumber p{
+    font-family: JB;
+    font-size: 3vw;
+    color: #31b98b;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#text p{
+    font-family: JBC;
+    font-size: 1vw;
+    color: #31b98b;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#descriptionw{
+    flex: 2
+}
+#descriptionw p{
+    font-family: JBC;
+    font-size: 3vw;
+    text-align: center;
+/*    margin-left: 100px;*/
+    color: #830BB6;
+}
+#arrowiconr{
+    flex: 1;
+    display: flex;
+    align-items: center;
+/*    justify-content: center;*/
+}
+#arrowiconr img{
+width: 70%;
+}
+#optionbox4rw{
+    width: 30vw;
+    height: 25vh;
+    background-color: white;
+    margin: 5vw;
+    border-radius:30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(127deg, rgb(251, 226, 255), #FDEAFF);
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+}
+}

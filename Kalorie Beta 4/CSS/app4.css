@@ -1,0 +1,320 @@
+@keyframes AnimationName { 
+    0%{background-position:0% 20%}
+    50%{background-position:100% 81%}
+    100%{background-position:0% 20%}
+}
+
+
+@media only screen and (max-device-width: 414px){
+#app4{
+    width:100vw;
+    height:120vh;
+/*    background-color: #ffbdbd;*/
+    position: absolute;
+/*    position: fixed;*/
+    margin-left: 100vw;
+    top: 0px;
+/*    margin-top:  7263px;*/
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+/*    display: none;*/
+}
+#rabbitear4{
+    width:100%;
+    height:5vh;
+}
+#menu4{
+    width:100%;
+    height: 13vw;
+/*    background-color: azure;*/
+    align-items: center;
+    display: flex;
+}
+#back4{
+    width: 30%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+/*    background-color: #d49aff;*/
+    margin-left: 3vw;
+}
+#back4 p{
+    font-family: JBC;
+    font-size: 8vw;
+    color: #40a3ff;
+}
+#back4 img{
+    width: 4vw;
+/*    height: 50px;*/
+    margin-right: 3vw;
+}
+#backtokalorie4{
+    width:15%;
+/*    height: 200px;*/
+/*    background-color: bisque;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 45vw;
+}
+#backtokalorie4 img{
+    width: 4vh;
+/*    height: 230px;*/
+}
+#questiontitle4{
+    width:100%;
+    height: 20vh;
+/*    background-color: rgba(255, 228, 196, 0.67);*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#questiontitle4 p{
+    font-family: JB;
+    font-size: 10vw;
+    text-align: center;
+}
+#optionholder4{
+    width:100%;
+    height: 90vh;
+/*    background-color: antiquewhite;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+/*    margin-top: 40px;*/
+}
+#optionbox14, #optionbox24, #optionbox34, #optionbox44{
+    width: 70vw;
+    height: 25vh;
+/*    flex: 1;*/
+    background-color: white;
+    margin: 5vw;
+    border-radius:30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#optionbox14{
+/*    background-color: aquamarine;*/
+/*    background: linear-gradient(150deg, rgb(181, 253, 0), rgb(49, 209, 0));*/
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 200%;
+    border-color: RGB(49, 209, 0);
+   color: RGB(49, 209, 0);
+    border-width: medium;
+    border-style: solid;
+}
+#optionbox24{
+/*    background-color: aquamarine;*/
+/*    background: linear-gradient(150deg, rgb(255, 195, 126), rgb(255, 194, 0));*/
+    animation: AnimationName 5s ease infinite;
+    background-size: 200% 800%;
+    border-color: rgb(255, 220, 0);
+    color: rgb(255, 220, 0);
+    border-width: medium;
+    border-style:solid;
+}
+#optionbox34{
+/*    background-color: aquamarine;*/
+/*    background: linear-gradient(150deg, rgb(255, 63, 218), rgb(228, 33, 49));*/
+    animation: AnimationName 5s ease infinite;
+    background-size: 200% 800%;
+    border-color: RGB(228, 8, 38);
+   color: RGB(228, 8, 38);
+    border-width: medium;
+    border-style:solid;
+}
+#optionbox44{
+/*    background-color: aquamarine;*/
+/*    background: linear-gradient(150deg, rgb(170, 13, 230), rgb(72, 51, 255));*/
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 200%;
+    border-color: RGB(75, 56, 255);
+    color: RGB(75, 56, 255);
+    border-width: medium;
+    border-style: solid;
+}
+#activityicon{
+    flex: 2;
+    display: flex;
+}
+#activityicon img{
+height: 80%;
+}
+#description{
+    flex:3;
+}
+#description p{
+    font-family: JBC;
+    font-size: 8vw;
+    text-align: center;
+}
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 414px){
+#app4{
+    width:100vw;
+    height:100vh;
+/*    background-color: #ffbdbd;*/
+/*    position: fixed;*/
+    position: absolute;
+    margin-left: 100vw;
+    top: 0px;
+/*    margin-top:  7263px;*/
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+/*    display: none;*/
+}
+#rabbitear4{
+    width:100%;
+    height:5vh;
+}
+#menu4{
+    width:100%;
+    height: 13vw;
+/*    background-color: azure;*/
+    align-items: center;
+    display: flex;
+}
+#back4{
+    width: 20vw;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+/*    background-color: #d49aff;*/
+    margin-left: 3vw;
+}
+#back4 p{
+    font-family: JBC;
+    font-size: 3vw;
+    color: #40a3ff;
+}
+#back4 img{
+    width: 1.5vw;
+/*    height: 50px;*/
+    margin-right: 1vw;
+}
+#backtokalorie4{
+    width:15%;
+/*    height: 200px;*/
+/*    background-color: bisque;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 60vw;
+}
+#backtokalorie4 img{
+    width: 4vh;
+/*    height: 230px;*/
+}
+#questiontitle4{
+    width:100%;
+    height: 20vh;
+/*    background-color: rgba(255, 228, 196, 0.67);*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#questiontitle4 p{
+    font-family: JB;
+    font-size: 5vw;
+    text-align: center;
+}
+     #questiontitle4 br{
+        display: none;
+    }
+#optionholder4{
+    width:90%;
+    height: 70vh;
+/*    background-color: antiquewhite;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+/*    margin-top: 40px;*/
+}
+#optionbox14, #optionbox24, #optionbox34, #optionbox44{
+    width: 25vw;
+    height: 30vh;
+/*    flex: 1;*/
+    background-color: white;
+    margin: 2vw;
+    border-radius:40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#optionbox14{
+/*    background-color: aquamarine;*/
+/*    background: linear-gradient(150deg, rgb(181, 253, 0), rgb(49, 209, 0));*/
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 200%;
+    border-color: RGB(49, 209, 0);
+   color: RGB(49, 209, 0);
+    border-width: medium;
+    border-style: solid;
+}
+#optionbox24{
+/*    background-color: aquamarine;*/
+/*    background: linear-gradient(150deg, rgb(255, 195, 126), rgb(255, 194, 0));*/
+    animation: AnimationName 5s ease infinite;
+    background-size: 200% 800%;
+    border-color: rgb(255, 220, 0);
+    color: rgb(255, 220, 0);
+    border-width: medium;
+    border-style:solid;
+}
+#optionbox34{
+/*    background-color: aquamarine;*/
+/*    background: linear-gradient(150deg, rgb(255, 63, 218), rgb(228, 33, 49));*/
+    animation: AnimationName 5s ease infinite;
+    background-size: 200% 800%;
+    border-color: RGB(228, 8, 38);
+   color: RGB(228, 8, 38);
+    border-width: medium;
+    border-style:solid;
+}
+#optionbox44{
+/*    background-color: aquamarine;*/
+/*    background: linear-gradient(150deg, rgb(170, 13, 230), rgb(72, 51, 255));*/
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 200%;
+    border-color: RGB(75, 56, 255);
+    color: RGB(75, 56, 255);
+    border-width: medium;
+    border-style: solid;
+}
+#activityicon{
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#activityicon img{
+height: 70%;
+}
+#description{
+    flex:1;
+/*    background-color: bisque;*/
+}
+#description p{
+    font-family: JBC;
+    font-size: 2.5vw;
+    text-align: center;
+    margin-top: 0px;
+}
+}
